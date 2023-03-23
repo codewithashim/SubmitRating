@@ -1,0 +1,43 @@
+.CardBody {
+  width: 60vh;
+  height: 60vh;
+  margin: 0 auto;
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  /* box-shadow: 2px 0 0 2px rgba(0, 0, 0, 0.8); */
+}
+
+.CardHead {
+  padding: 2rem;
+}
+
+.CardTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.inputRatigStyle {
+  width: 5rem;
+  height: 3rem;
+  margin: 0.5rem;
+  border-radius: 5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.submitBtn {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 2px solid black;
+  color: black;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.6s linear;
+}
+
+.submitBtn:hover {
+  background-color: black;
+  color: white;
+}
